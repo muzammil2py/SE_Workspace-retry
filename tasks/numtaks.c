@@ -1,5 +1,5 @@
-#include <conio.h>
 #include <stdio.h>
+#include <conio.h>
 
 void main()
 {
@@ -9,11 +9,10 @@ void main()
    
 
     printf("Enter number of number: ");
-    scanf("%d", &num);
-
-    for(r = 1; r <= num; r++)       
+    scanf("%d",&num);
+    for(r=1; r<=num; r++)       
     {
-        for(c = 1; c <= r; c++)      
+        for(c=1;c<=r;c++)      
         {
             printf("%d", k);
             k++;

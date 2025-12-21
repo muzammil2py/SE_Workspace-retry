@@ -5,7 +5,7 @@ void main()
 
     int r,c,num;
     printf("Enter the number of rows and columns:");
-    scanf("%d"&num);
+    scanf("%d",&num);
     for(r=1;r<=num;r++)
     {
         for(c=1;c<=num;c++)
