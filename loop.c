@@ -10,7 +10,7 @@ void main()
     for(t=1;t<=10;t++)
     {
         int  ans=n*t;
-        printf("\n %d*%d=%d",n,t,ans);
+        printf("\n %d*%d=%dn",n,t,ans);
     }
     getch();
 
