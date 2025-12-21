@@ -8,7 +8,7 @@ void main()
     scanf("%d",&num);
     for(r=1;r<=num;r++)
     {
-        for(c=1;c<=num;c++)
+        for(c=1;c<=r;c++)
         {
             printf("%d ",r*r);
         }
