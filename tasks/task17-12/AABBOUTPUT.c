@@ -14,10 +14,12 @@ void main()
         for(c=1;c<=r;c++)
         {
             printf("%c",a);
+            
         
         }
-        a++;
+        
         printf("\n");
+        a++;
     }
     
 
