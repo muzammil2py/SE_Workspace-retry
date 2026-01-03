@@ -7,7 +7,7 @@ int main()
 {
     FILE *fp;
     int choice;
-    // We need variables for User Input AND variables to hold data read from the file
+    
     char email[20], pass[20], balance[200];
     char fileEmail[20], filePass[20], fileBalance[200]; 
 
@@ -29,18 +29,16 @@ int main()
 
         fp = fopen("details.txt", "w"); 
 
-        // 1. ADDING \n AS REQUESTED
-        // We use "%s\n" so every item is on a new line. 
-        // This is crucial for reading it back later.
+        
         fprintf(fp, "%s\n", email);
         fprintf(fp, "%s\n", pass);
         fprintf(fp, "%s\n", balance);
         
-        fclose(fp); // 2. ALWAYS CLOSE THE FILE
+        fclose(fp);  
         printf("Account created successfully.\n");
         break;
 
-    case 2: // LOGIN
+    case 2: 
         printf("Enter the registered email:- ");
         scanf("%s", email);
 
