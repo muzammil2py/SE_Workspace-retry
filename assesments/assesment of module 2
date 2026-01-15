@@ -1,0 +1,51 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<stdbool.h>
+
+void main()
+{
+   int table_no=0,choice,bill=0;
+   printf("Enter Table No: ");
+   scanf("%d",&table_no);
+   
+   while(true)
+   {
+        printf("\n Enter 1 For Pizza- Rs.100 \n Enter 2 For Burger- Rs. 70 \n Enter 3 for Coffee- Rs.120 \n Enter 0 For Exit");
+        scanf("%d",&choice);
+        
+        switch(choice)
+        {
+           
+            
+            case 1:
+           
+            bill+=100;
+            //printf("Total : %d ",bill);
+            break;
+            
+            case 2:
+            
+            bill+=70;
+            //printf("Total : %d ",bill);
+            break;
+            
+            case 3:
+            
+            bill+=120;
+           // printf("Total : %d ",bill);
+            break;
+            
+            case 0:exit(0);
+           
+            
+            default:printf("Item Not available");
+            break;
+        }
+        printf("Total : %d ",bill);
+   }
+   
+   
+
+    getch();
+}
