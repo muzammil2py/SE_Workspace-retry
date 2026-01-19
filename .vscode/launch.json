@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/abc/Documents/GitHub/SE_Workspace-retry",
-      "program": "c:/Users/abc/Documents/GitHub/SE_Workspace-retry/build/Debug/outDebug",
+      "cwd": "c:/Users/sheik/OneDrive/Documents/GitHub/SE_Workspace-retry",
+      "program": "c:/Users/sheik/OneDrive/Documents/GitHub/SE_Workspace-retry/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
