@@ -12,9 +12,8 @@ int main()
         {
             cout << a << " ";
             a++;
-            cout << endl;
         }
-        
+        cout << endl;
     }
     return 0;
 
