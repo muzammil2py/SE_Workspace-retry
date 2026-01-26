@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
     float num;
 
@@ -15,5 +15,5 @@ void main()
     else 
 
     printf("your number is negetive");
-    getch();
+    return 0;
 }
