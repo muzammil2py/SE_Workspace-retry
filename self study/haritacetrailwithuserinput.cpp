@@ -6,29 +6,34 @@ class shape
     float a;
     float b;
      
-    void input()
+    
+};
+class input : public shape
+{
+    public:
+    void inputval()
     {
-        cout<<"Enter the intiger a's value:-"<<endl;
+        cout<<"Enter the integer a's value:-"<<endl;
         cin>>a;
-        cout<<"Enter the intiger b's value:-"<<endl;
+        cout<<"Enter the integer b's value:-"<<endl;
         cin>>b;
     }
 };
-class rectangle : public shape
+class rectangle : public shape  
 {
     public:
     void aofr()
     {
-        cout<<"area of rectangle"<<a*b<<endl;
+        cout<<"area of rectangle :-  "<<a*b;
     }
 };
-class circle : public shape
+class circle : public shape 
 {
     public:
     void aofc()
     {
         float pi=3.14;
-        cout<<"area fo the circle is:-"<<pi*a*a<<endl;
+        cout<<"area fo the circle is:-"<<pi*a*a;
     }
 };
 
@@ -37,7 +42,7 @@ class triangle : public shape
     public:
     void soft()
     {
-        cout<<" area of triangle is :-"<<(a*b)/2<<endl;
+        cout<<" area of triangle is :-"<<(a*b)/2;
 
     }
     
@@ -45,18 +50,18 @@ class triangle : public shape
 int main()
 {
 
+    input i;
+    i.inputval();
+    
     rectangle r;
-    r.input();
     r.aofr();
 
     circle c;
-    c.input();
     c.aofc();
 
     triangle t;
-    t.input();
     t.soft();
-    
+
     return 0;
     
 }
