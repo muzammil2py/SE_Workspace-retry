@@ -69,4 +69,6 @@ int main()
     a.minus();
     a.multiplication();
     a.division();
+
+    return 0;
 }
