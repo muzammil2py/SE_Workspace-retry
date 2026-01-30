@@ -3,7 +3,7 @@
 int main()
 {
     int choice, qty;
-    int totalAmount = 0;
+    double totalAmount = 0;
     char moreOrder;
 
     /* Prices of food items */
@@ -69,7 +69,7 @@ int main()
 
     /* Display final bill */
     printf("\n============================\n");
-    printf("Total Bill Amount: Rs.%d\n", totalAmount);
+    printf("Total Bill Amount: Rs.%lf\n", totalAmount);
     printf("Thank you! Visit again.\n");
     printf("============================\n");
 
