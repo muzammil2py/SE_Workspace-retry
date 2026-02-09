@@ -21,13 +21,14 @@ int main() {
         cin >> input_pass;
 
         
+        
         if (username_input == username_inbuilt && input_pass == inbuilt_password) {
             cout << "\nSuccess! All details are correct. You logged in successfully." << endl;
             break; 
         } 
         else {
            
-            cout << "\nInvalid credentials! Please try again." << endl;
+            cout << "\nInvalid info! Please try again." << endl;
             
             if (username_input != username_inbuilt) {
                 cout << "[Hint: Incorrect Username]" << endl;
