@@ -1,4 +1,4 @@
-#include <iostream>
+ #include <iostream>
 // no ctime here, just basic iostream
 
 using namespace std;
@@ -129,4 +129,4 @@ int main() {
     myAtm.startSystem();
     
     return 0;
-}
+}  
